@@ -1,0 +1,7 @@
+{
+  "name": "phone_directory",
+  "short_name": "phone_directory",
+  "description": "Challenge proposed by Yhoshua for the bootcamp",
+  "start_url": "/",
+  "display": "standalone"
+}
