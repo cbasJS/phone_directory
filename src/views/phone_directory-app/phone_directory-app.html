@@ -1,32 +1,10 @@
-<link rel="import" href="../../../bower_components/polymer/polymer-element.html">
-
 <dom-module id="phone_directory-app">
-  <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
-    <h2>Hello [[prop1]]!</h2>
+    <link rel="import" href="../../../bower_components/polymer/polymer-element.html" />
+    <link rel="stylesheet" href="../../assets/css/phone_directory-app/phoneDirectory.css" />
+  <template>          
+    <div class="main-title-phone-directory">
+      <h1>[[title]] <small><a href="#">more about me</a></small></h1>      
+    </div>
   </template>
-
-  <script>
-    /**
-     * @customElement
-     * @polymer
-     */
-    class Phone_directoryApp extends Polymer.Element {
-      static get is() { return 'phone_directory-app'; }
-      static get properties() {
-        return {
-          prop1: {
-            type: String,
-            value: 'phone_directory-app'
-          }
-        };
-      }
-    }
-
-    window.customElements.define(Phone_directoryApp.is, Phone_directoryApp);
-  </script>
+  <script src="../../components/phone_directory-app/phone_directory-app.js"></script>
 </dom-module>
