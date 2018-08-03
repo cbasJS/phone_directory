@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Open+Sans:400,400i,600,700|Roboto:400,400i,500,700");
+body {
+  font-family: "Open sans", Arial, sans-serif;
+  font-size: 16px;
+  background: url("../img/memphis-colorful.png");
+  background-repeat: repeat;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Roboto;
+  font-weight: 700;
+  color: #708090;
+}
+
+p {
+  font-family: Lato;
+  font-weight: 400;
+  color: #0C133B;
+  letter-spacing: 1.3px;
+  line-height: 23px;
+  text-align: justify;
+}
+p em {
+  color: #00C595;
+}
+p b {
+  color: #4281ed;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=index.css.map */
